@@ -1,23 +1,5 @@
-# ReduxSimpleStarter
 
-###Getting Started###
+# redux-react-boilerplate
+redux/react project boilerplate
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install depdencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+Uses Webpack build tool and also includes an eslint file, redux-thunk, and redux-promise-middleware.
