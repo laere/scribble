@@ -6,13 +6,15 @@ import Thunk from 'redux-thunk';
 import Promise from 'redux-promise-middleware';
 
 
-import App from './components/app';
+import App from './App/Aapp';
 import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware(Think)(Promise)(createStore);
+const createStoreWithMiddleware = applyMiddleware(Thunk)(Promise)(createStore);
+const store = createStoreWithMiddleware(reducers);
 
+//Routing goes inside Provider
 ReactDOM.render(
-  <Provider store={createStoreWithMiddleware(reducers)}>
+  <Provider store={store}>
     <App />
   </Provider>
   , document.querySelector('.container'));
