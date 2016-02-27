@@ -13,7 +13,8 @@ Plan out what the state will consist of, and any data structuring for said state
 
 Define what containers will do what, what components they will consist of, and what those components will do (single responsibility principal)
 
-Satisfy the seperation of concerns. 
+Satisfy the seperation of concerns, both external and internal. 
 
 Once this is done, then start working on the physical aspects, such as fleshing out the containers and components.
 
+One small step at a time.
