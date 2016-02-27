@@ -1,6 +1,6 @@
 # scribble
 
-A WIP Blog made from scratch to challenge my abilities as a developer to create applications that are scalable and don't suck. 
+A WIP Blog made from scratch. Challenging my abilities as a developer to create applications that are scalable and don't suck. 
 
 
 <h1>THINGS TO DO:</h1>
