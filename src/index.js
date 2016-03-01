@@ -17,7 +17,7 @@ import Home from '../src/Containers/Home/HomeContainer';
 import Search from '../src/Containers/Search/SearchContainer';
 import User from '../src/Containers/User/UserContainer';
 // REDUCERS
-
+// import reducers from '../src/Reducers/'
 
 // Store with middleware.
 const createStoreWithMiddleware = applyMiddleware(Thunk, Promise)(createStore);
@@ -40,9 +40,9 @@ ReactDOM.render(
         <IndexRoute component={Home} />
         <Route path="about" component={About} />
         <Route path="search" component={Search} />
-        <Route path="user/:id" component={User} />
         <Route path="draft" component={Draft} />
+        <Route path="user/:id" component={User} />
       </Route>
     </Router>
   </Provider>
-  , document.querySelector('.container'));
+  , document.querySelector('.main-container'));
