@@ -7,7 +7,7 @@ import { createStore, applyMiddleware, combineReducers } from 'redux';
 import Thunk from 'redux-thunk';
 import Promise from 'redux-promise-middleware';
 // ROUTING
-import { Router, Route, browserHistory } from 'react-router';
+import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
 // CONTAINERS
 import App from '../src/App/App';
@@ -16,17 +16,18 @@ import Draft from '../src/Containers/Draft/DraftContainer';
 import Home from '../src/Containers/Home/HomeContainer';
 import Search from '../src/Containers/Search/SearchContainer';
 import User from '../src/Containers/User/UserContainer';
+// REDUCERS
 
 
 // Store with middleware.
-const createStoreWithMiddleware = applyMiddleware(Thunk)(Promise)(createStore);
+const createStoreWithMiddleware = applyMiddleware(Thunk, Promise)(createStore);
 
 // Store with middleware and reducers
-const store = createStoreWithMiddleware(
-  combineReducers({
-    routing: routerReducer
-  })
-);
+const State = combineReducers({
+  routing: routerReducer
+});
+
+const store = createStoreWithMiddleware(State);
 
 // Sync history with store
 const history = syncHistoryWithStore(browserHistory, store);
