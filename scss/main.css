@@ -1,34 +1,33 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,900,300);
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: 'Source Sans Pro', sans-serif; }
+  font-size: 62.5%; }
 
 *, *:after, *:before {
   box-sizing: border-box; }
 
 body {
-  color: #fff;
   font-size: 2rem;
   line-height: 1.5;
-  letter-spacing: 1; }
+  letter-spacing: 1;
+  font-family: 'Chivo', sans-serif; }
 
 img {
   max-width: 100%;
   height: auto; }
 
-.main-container .navbar {
+.main-container .mainNavbar {
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 1.75rem;
-  padding: 12px 0;
+  padding: 16px 0;
   color: #222;
-  border-bottom: 1px solid #999; }
-  .main-container .navbar a {
+  border-bottom: 1px solid #333; }
+  .main-container .mainNavbar a {
     color: inherit;
-    margin-right: 32px; }
-  .main-container .navbar .seperator {
-    margin-right: 32px; }
+    margin: 48px; }
+  .main-container .mainNavbar .seperator {
+    margin-right: 48px; }
 
 /*# sourceMappingURL=main.css.map */

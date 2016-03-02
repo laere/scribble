@@ -7,9 +7,7 @@ export default class NavbarLinksLeft extends Component {
     return (
       <div className="navbar-Left">
         <Link to="/search">Search</Link>
-        <Seperator />
-        <Link to="/draft">Draft</Link>
-        <Seperator />
+        <Link to="/draft">Draft</Link>      
         <Link to="/user/:id">Profile</Link>
       </div>
     );

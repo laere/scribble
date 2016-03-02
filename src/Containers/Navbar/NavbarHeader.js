@@ -7,9 +7,7 @@ export default class NavbarHeader extends Component {
     return (
       <div className="navbar-Header">
         <Link to="/">Scribble</Link>
-        <Seperator />
         <Link to="/about">About</Link>
-        <Seperator />
       </div>
     );
   }

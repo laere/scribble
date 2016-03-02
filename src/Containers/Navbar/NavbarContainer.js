@@ -8,7 +8,7 @@ class NavbarContainer extends Component {
 
 
     return (
-      <nav className="navbar">
+      <nav className="mainNavbar">
         <NavbarHeader />
         <NavbarLinksLeft />
       </nav>
