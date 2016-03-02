@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-// import Logo from './Navbar';
+import Seperator from './Seperator';
 
 export default class NavbarHeader extends Component {
   render() {
     return (
       <div className="navbar-Header">
-        <Link to="/" activeClassName="active">Scribble</Link>
-        <Link to="/about" activeClassName="active">About</Link>
+        <Link to="/">Scribble</Link>
+        <Seperator />
+        <Link to="/about">About</Link>
+        <Seperator />
       </div>
     );
   }

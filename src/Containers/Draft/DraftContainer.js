@@ -3,8 +3,13 @@ import React, { Component } from 'react';
 
 class DraftContainer extends Component {
   render() {
+
+    const bg = {
+      backgroundColor: 'blue'
+    };
+
     return (
-      <div> HelloDraft</div>
+      <div style={bg}>Hello Draft</div>
     );
   }
 }

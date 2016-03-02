@@ -18,14 +18,17 @@ img {
   height: auto; }
 
 .main-container .navbar {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
   font-size: 1.75rem;
-  padding: 16px 0;
+  padding: 12px 0;
   color: #222;
   border-bottom: 1px solid #999; }
   .main-container .navbar a {
     color: inherit;
-    margin-right: 16px; }
-  .main-container .navbar .navbar-Left {
-    float: left; }
+    margin-right: 32px; }
+  .main-container .navbar .seperator {
+    margin-right: 32px; }
 
 /*# sourceMappingURL=main.css.map */

@@ -3,8 +3,13 @@ import React, { Component } from 'react';
 
 class HomeContainer extends Component {
   render() {
+
+    const bg = {
+      backgroundColor: 'red'
+    };
+
     return (
-      <div>Home</div>
+      <div style={bg}>Hello Home</div>
     );
   }
 }

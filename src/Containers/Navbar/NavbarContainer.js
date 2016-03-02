@@ -5,6 +5,8 @@ import NavbarLinksLeft from './NavbarLinksLeft';
 
 class NavbarContainer extends Component {
   render() {
+
+
     return (
       <nav className="navbar">
         <NavbarHeader />
