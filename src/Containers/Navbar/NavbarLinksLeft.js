@@ -9,7 +9,9 @@ export default class NavbarLinksLeft extends Component {
         <Link to="/search">
           <button className="searchBtn"><i className="fa fa-search"></i></button>
         </Link>
-        <Link to="/draft">Draft</Link>
+        <Link to="/draft">
+          <button className="draftBtn">Draft</button>
+        </Link>
         <Link to="/user/:id">Profile</Link>
       </div>
     );

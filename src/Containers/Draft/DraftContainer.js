@@ -5,7 +5,9 @@ class DraftContainer extends Component {
   render() {
 
     return (
-      <div>Hello Draft</div>
+      <div>
+        
+      </div>
     );
   }
 }

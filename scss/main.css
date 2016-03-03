@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
 html {
   box-sizing: border-box;
   font-size: 62.5%; }
@@ -17,19 +19,21 @@ img {
 
 .main-container {
   background-color: #E8E8E8;
-  height: 1000px; }
+  height: 1000px;
+  font-family: 'Varela Round', sans-serif; }
   .main-container .mainNavbar {
     background-color: #fff;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
+    align-items: center;
     font-size: 1.65rem;
-    padding: 12px 0;
+    padding: 16px 0;
     color: #333;
-    border-bottom: 1px solid #909090; }
+    border-bottom: 1px solid #F0F0F0; }
     .main-container .mainNavbar a {
       color: inherit;
-      margin: 24px; }
+      margin: 16px; }
     .main-container .mainNavbar .searchBtn {
       border: 1px solid #999;
       background-color: #fff;
@@ -38,8 +42,21 @@ img {
         background-color: #222; }
       .main-container .mainNavbar .searchBtn .fa:hover {
         color: #fff; }
+    .main-container .mainNavbar .draftBtn {
+      background-color: #111;
+      color: #fff;
+      border-radius: 30px;
+      border: 1px solid #999;
+      padding: 3px 20px;
+      font-weight: bold; }
+      .main-container .mainNavbar .draftBtn:hover {
+        background-color: #fff;
+        color: #111; }
     .main-container .mainNavbar .navbar-Header {
       margin-left: 16px; }
+      .main-container .mainNavbar .navbar-Header .logo {
+        font-family: 'Cedarville Cursive', sans-serif;
+        font-size: 2.5rem; }
     .main-container .mainNavbar .navbar-Left {
       margin-right: 16px; }
   .main-container .searchContainer {
@@ -52,5 +69,22 @@ img {
       border: none;
       background-color: #E8E8E8;
       outline: none; }
+  .main-container .aboutContainer .aboutBanner {
+    width: 100%;
+    height: 800px;
+    background-image: url("http://www.hdwallpapers.in/walls/new_york_skyline-wide.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; }
+  .main-container .aboutContainer .bannerOverlay {
+    width: 100%;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.25); }
+  .main-container .aboutContainer .aboutBannerTagline {
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    left: 50px; }
 
 /*# sourceMappingURL=main.css.map */
