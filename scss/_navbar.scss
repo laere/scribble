@@ -1,0 +1,60 @@
+
+
+.main-container {
+  background-color: #E8E8E8;
+  height: 1000px;
+  font-family: 'Varela Round', sans-serif;
+  // NAVBAR
+  .mainNavbar {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $white;
+    font-size: 1.65rem;
+    padding: 32px;
+    color: #333;
+    border-bottom: 1px solid #F0F0F0;
+
+    a {
+      color: inherit;
+      margin: 12px;
+    }
+
+    .navbarBtn {
+      border: 1px solid #999;
+      background-color: $white;
+      border-radius: 100%;
+      padding: 3px 8px;
+      &:hover {
+        background-color: #222;
+      }
+      .navbarIcon:hover {
+        color: $white
+      }
+    }
+
+    .profileBtn {
+      border: 1px solid #999;
+    }
+
+    .draftBtn {
+      background-color: #111;
+      color: $white;
+      border-radius: 30px;
+      border: 1px solid #999;
+      padding: 3px 20px;
+      font-weight: bold;
+      &:hover {
+        background-color: $white;
+        color: #111;
+      }
+    }
+
+    .logo {
+      font-family: 'Cedarville Cursive', sans-serif;
+      font-size: 2.5rem;
+    }
+
+  }
+} //END OF THE SASS

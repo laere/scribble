@@ -1,5 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Varela+Round);
-@import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
 html {
   box-sizing: border-box;
@@ -22,26 +21,29 @@ img {
   height: 1000px;
   font-family: 'Varela Round', sans-serif; }
   .main-container .mainNavbar {
-    background-color: #fff;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
     font-size: 1.65rem;
-    padding: 16px 0;
+    padding: 32px;
     color: #333;
     border-bottom: 1px solid #F0F0F0; }
     .main-container .mainNavbar a {
       color: inherit;
-      margin: 16px; }
-    .main-container .mainNavbar .searchBtn {
+      margin: 12px; }
+    .main-container .mainNavbar .navbarBtn {
       border: 1px solid #999;
       background-color: #fff;
-      border-radius: 30px; }
-      .main-container .mainNavbar .searchBtn:hover {
+      border-radius: 100%;
+      padding: 3px 8px; }
+      .main-container .mainNavbar .navbarBtn:hover {
         background-color: #222; }
-      .main-container .mainNavbar .searchBtn .fa:hover {
+      .main-container .mainNavbar .navbarBtn .navbarIcon:hover {
         color: #fff; }
+    .main-container .mainNavbar .profileBtn {
+      border: 1px solid #999; }
     .main-container .mainNavbar .draftBtn {
       background-color: #111;
       color: #fff;
@@ -52,40 +54,45 @@ img {
       .main-container .mainNavbar .draftBtn:hover {
         background-color: #fff;
         color: #111; }
-    .main-container .mainNavbar .navbar-Header {
-      margin-left: 16px; }
-      .main-container .mainNavbar .navbar-Header .logo {
-        font-family: 'Cedarville Cursive', sans-serif;
-        font-size: 2.5rem; }
-    .main-container .mainNavbar .navbar-Left {
-      margin-right: 16px; }
-  .main-container .searchContainer {
-    padding-left: 72px;
-    padding-top: 72px; }
-    .main-container .searchContainer .searchBox {
-      width: 100%;
-      font-size: 5rem;
-      min-height: 2rem;
-      border: none;
-      background-color: #E8E8E8;
-      outline: none; }
-  .main-container .aboutContainer .aboutBanner {
+    .main-container .mainNavbar .logo {
+      font-family: 'Cedarville Cursive', sans-serif;
+      font-size: 2.5rem; }
+
+.aboutContainer .aboutBanner {
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://www.hdwallpapers.in/walls/new_york_skyline-wide.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center; }
+.aboutContainer .aboutBannerTagline {
+  font-size: 4rem;
+  font-family: 'Cedarville Cursive', sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 32px; }
+.aboutContainer .aboutSectionOne {
+  background-color: #FF5252;
+  height: 400px;
+  color: #fff;
+  text-align: center; }
+  .aboutContainer .aboutSectionOne h2 {
+    margin: 0; }
+
+.searchContainer {
+  padding-left: 72px;
+  padding-top: 72px; }
+  .searchContainer .searchBox {
     width: 100%;
-    height: 800px;
-    background-image: url("http://www.hdwallpapers.in/walls/new_york_skyline-wide.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; }
-  .main-container .aboutContainer .aboutBannerTagline {
-    font-size: 4rem;
-    font-family: 'Cedarville Cursive', sans-serif;
-    color: #fff;
-    text-align: center;
-    position: absolute;
-    top: 40%;
-    left: 25%;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 16px; }
+    font-size: 5rem;
+    min-height: 2rem;
+    border: none;
+    background-color: #E8E8E8;
+    outline: none; }
 
 /*# sourceMappingURL=main.css.map */

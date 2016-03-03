@@ -7,12 +7,18 @@ export default class NavbarLinksLeft extends Component {
     return (
       <div className="navbar-Left">
         <Link to="/search">
-          <button className="searchBtn"><i className="fa fa-search"></i></button>
+          <button className="navbarBtn">
+            <i className="fa fa-search navbarIcon"></i>
+          </button>
         </Link>
         <Link to="/draft">
           <button className="draftBtn">Draft</button>
         </Link>
-        <Link to="/user/:id">Profile</Link>
+        <Link to="/user/:id">
+          <button className="navbarBtn">
+            <i className="fa fa-user navbarIcon"></i>
+          </button>
+        </Link>
       </div>
     );
   }
