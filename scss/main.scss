@@ -127,17 +127,22 @@ img {
       position: relative;
     }
 
-    .bannerOverlay {
-      width: 100%;
-      height: 800px;
-      background-color: rgba(0,0,0, .25);
-    }
+    // .bannerOverlay {
+    //   width: 100%;
+    //   height: 800px;
+    //   background-color: rgba(0,0,0, .25);
+    // }
 
     .aboutBannerTagline {
+      font-size: 4rem;
+      font-family: 'Cedarville Cursive', sans-serif;
       color: $white;
+      text-align: center;
       position: absolute;
-      top: 50px;
-      left: 50px;
+      top: 40%;
+      left: 25%;
+      background-color: rgba(0,0,0, .6);
+      padding: 16px;
     }
 
   }
