@@ -17,7 +17,7 @@ body {
   font-size: 2rem;
   line-height: 1.5;
   letter-spacing: 1;
-  font-family: 'Chivo', sans-serif;
+
 }
 
 a {
@@ -42,26 +42,25 @@ img {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
-    font-size: 1.75rem;
-    padding: 16px 0;
+    font-size: 1.65rem;
+    padding: 8px 0;
     color: #222;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #222;
     a {
       color: inherit;
-      margin: 48px;
+      margin: 32px;
     }
 
-    .seperator{
-      margin-right: 48px;
+    // .seperator{
+    //   margin-right: 48px;
+    // }
+
+    .navbar-Header {
+      margin-left: 16px;
     }
 
-    .navbar-Header,
     .navbar-Left {
-
-    }
-
-    .navbar-Left {
-
+      margin-right: 16px;
     }
 
   }

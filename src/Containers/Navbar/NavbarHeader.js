@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import Seperator from './Seperator';
+
 
 export default class NavbarHeader extends Component {
   render() {

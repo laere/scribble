@@ -9,8 +9,7 @@ html {
 body {
   font-size: 2rem;
   line-height: 1.5;
-  letter-spacing: 1;
-  font-family: 'Chivo', sans-serif; }
+  letter-spacing: 1; }
 
 img {
   max-width: 100%;
@@ -20,14 +19,16 @@ img {
   display: flex;
   flex-flow: row;
   justify-content: space-between;
-  font-size: 1.75rem;
-  padding: 16px 0;
+  font-size: 1.65rem;
+  padding: 8px 0;
   color: #222;
-  border-bottom: 1px solid #333; }
+  border-bottom: 1px solid #222; }
   .main-container .mainNavbar a {
     color: inherit;
-    margin: 48px; }
-  .main-container .mainNavbar .seperator {
-    margin-right: 48px; }
+    margin: 32px; }
+  .main-container .mainNavbar .navbar-Header {
+    margin-left: 16px; }
+  .main-container .mainNavbar .navbar-Left {
+    margin-right: 16px; }
 
 /*# sourceMappingURL=main.css.map */
