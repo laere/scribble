@@ -14,6 +14,7 @@ import App from '../src/App/App';
 import About from '../src/Containers/About/AboutContainer';
 import Draft from '../src/Containers/Draft/DraftContainer';
 import Home from '../src/Containers/Home/HomeContainer';
+import Login from '../src/Containers/Login/LoginContainer';
 import Search from '../src/Containers/Search/SearchContainer';
 import User from '../src/Containers/User/UserContainer';
 // REDUCERS

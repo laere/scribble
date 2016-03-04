@@ -404,8 +404,6 @@ p {
         background-color: #222; }
       .main-container .mainNavbar .navbarBtn .navbarIcon:hover {
         color: #fff; }
-    .main-container .mainNavbar .profileBtn {
-      border: 1px solid #999; }
     .main-container .mainNavbar .draftBtn {
       background-color: #111;
       color: #fff;
