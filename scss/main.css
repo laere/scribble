@@ -4,7 +4,7 @@
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
-@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Cedarville+Cursive);
 html {
   -ms-text-size-adjust: 100%;
@@ -443,7 +443,7 @@ p {
   height: 400px;
   color: #fff;
   text-align: center;
-  font-family: 'Cedarville Cursive', sans-serif;
+  font-family: "Droid Serif", sans-serif;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;

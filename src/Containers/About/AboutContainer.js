@@ -1,22 +1,30 @@
 import React, { Component } from 'react';
+import Section from './Section';
 
-class AboutContainer extends Component {
-  render() {
-
+const About = () => {
     return (
       <div className="aboutContainer">
-        <div className="aboutBanner">
-            <h2 className="aboutBannerTagline">A place to share your thoughts, and discover others.</h2>
-        </div>
-        <div className="aboutSectionOne">
-          <h2>Throw your thoughts onto paper, and watch them grow.</h2>
-          <p>Scribble is a place that allows users express an idea,
-            grow that idea, and share it with others.</p>
-          <h3>So. What are you thinking?</h3>
-        </div>
+
+        <Section
+            className="aboutBanner"
+            tagline="aboutBannerTagline"
+            header="A place to share your thoughts, and discover others"
+        />
+
+        <Section
+            className="aboutSectionOne"
+            header="Throw your thoughts onto paper, and watch them grow.">
+              <p>Scribble is a place that allows users express an idea,
+              grow that idea, and share it with others.</p>
+        </Section>
+
       </div>
     );
-  }
-}
+};
 
-export default AboutContainer;
+About.propTypes = {
+    tagline: React.PropTypes.string,
+    header: React.PropTypes.string
+};
+
+export default About;
