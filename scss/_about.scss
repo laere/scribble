@@ -16,7 +16,7 @@
 
   .aboutBannerTagline {
     font-size: 4rem;
-    font-family: 'Cedarville Cursive', sans-serif;
+    font-family: $cursive;
     color: $white;
     text-align: center;
     background-color: rgba(0,0,0, .6);
@@ -24,7 +24,7 @@
   }
 
   .aboutSectionOne {
-    background-color: #FF5252;
+    background-color: $lightred;
     height: 400px;
     color: $white;
     text-align: center;
@@ -33,7 +33,9 @@
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-
+    h2 {
+      font-family: $cursive;
+    }
   }
 
 }

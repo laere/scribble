@@ -433,7 +433,7 @@ p {
   align-items: center; }
 .aboutContainer .aboutBannerTagline {
   font-size: 4rem;
-  font-family: 'Cedarville Cursive', sans-serif;
+  font-family: "Cedarville Cursive", sans-serif;
   color: #fff;
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6);
@@ -448,6 +448,8 @@ p {
   flex-flow: column nowrap;
   justify-content: center;
   align-items: center; }
+  .aboutContainer .aboutSectionOne h2 {
+    font-family: "Cedarville Cursive", sans-serif; }
 
 .searchContainer {
   padding-left: 72px;
