@@ -28,10 +28,12 @@
     height: 400px;
     color: $white;
     text-align: center;
-    h2 {
-      margin: 0;
-
-    }
+    font-family: 'Cedarville Cursive', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  
   }
 
 }
