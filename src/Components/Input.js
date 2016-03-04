@@ -13,11 +13,11 @@ const Input = (props) => {
   );
 };
 
-Input.propTypes = {
-  type: React.PropTypes.string.isRequired,
-  value: React.PropTypes.string,
-  placeholder: React.PropTypes.string.isRequired,
-  className: React.PropTypes.string.isRequired
-};
+// Input.propTypes = {
+//   type: React.PropTypes.string.isRequired,
+//   value: React.PropTypes.string,
+//   placeholder: React.PropTypes.string.isRequired,
+//   className: React.PropTypes.string.isRequired
+// };
 
 export default Input;

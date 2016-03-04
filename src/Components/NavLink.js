@@ -13,11 +13,11 @@ const NavLink = (props) => {
   );
 };
 
-NavLink.propTypes = {
-  to: React.PropTypes.string.isRequired,
-  text: React.PropTypes.string.isRequired,
-  buttonStyle: React.PropTypes.string.isRequired,
-  iconStyle: React.PropTypes.string.isRequired
-};
+// NavLink.propTypes = {
+//   to: React.PropTypes.string,
+//   text: React.PropTypes.string.isRequired,
+//   buttonStyle: React.PropTypes.string.isRequired,
+//   iconStyle: React.PropTypes.string.isRequired
+// };
 
 export default NavLink;

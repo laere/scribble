@@ -5,7 +5,7 @@ import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, combineReducers } from 'redux';
 // MIDDLEWARE
 import Thunk from 'redux-thunk';
-import Promise from 'redux-promise-middleware';
+import Promise from 'redux-promise';
 // ROUTING
 import { Router, Route, browserHistory, IndexRoute } from 'react-router';
 import { syncHistoryWithStore, routerReducer } from 'react-router-redux';
@@ -43,6 +43,8 @@ ReactDOM.render(
         <Route path="search" component={Search} />
         <Route path="draft" component={Draft} />
         <Route path="user/:id" component={User} />
+        <Route path="login" component={Login}/>
+          {/*<Route path="signup" component={Signup}/>*/}
       </Route>
     </Router>
   </Provider>

@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
 import NavLink from '../../Components/NavLink';
 
-export default class NavbarLinksLeft extends Component {
-  render() {
+const NavbarLinksLeft = () => {
     return (
 
       <div className="navbar-Left">
@@ -18,10 +16,10 @@ export default class NavbarLinksLeft extends Component {
           buttonStyle="draftBtn"
           text="Draft"
         />
-
         {/*If Logged in display NavLink user Icon, else display LogIn button
         {userLoggedIn ? <NavLink /> : <LogIn />}*/}
         <NavLink
+          to="/login"
           buttonStyle="draftBtn"
           text="Log In"
         />
@@ -33,5 +31,6 @@ export default class NavbarLinksLeft extends Component {
 
       </div>
     );
-  }
-}
+};
+
+export default NavbarLinksLeft;

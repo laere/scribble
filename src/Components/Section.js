@@ -9,11 +9,11 @@ const Section = (props) => {
   );
 };
 
-Section.propTypes = {
-    tagline: React.PropTypes.string,
-    header: React.PropTypes.string,
-    className: React.PropTypes.string
-};
+// Section.propTypes = {
+//     tagline: React.PropTypes.string,
+//     header: React.PropTypes.string,
+//     className: React.PropTypes.string
+// };
 
 
 export default Section;
