@@ -1,23 +1,23 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
+import FormWrapper from '../../Components/FormWrapper';
 import Input from '../../Components/Input';
 
 class LoginContainer extends Component {
+
   render() {
 
     return (
-      <div className="loginContainer">
-        <form className="loginForm">
-          <label>Create an Account</label>
-          <Input type="text" placeholder="Username" />
-          <Input type="text" placeholder="Email" />
-          <Input type="text" placeholder="Password" />
-          <Input type="text" placeholder="Confirm Password" />
-          <div className="formBtns">
-            <Input type="submit" value="Sign Up" />
-            <Input type="submit" value="Register" />
-          </div>
-        </form>
-      </div>
+      <FormWrapper
+        className="loginContainer"
+        header="Log in" >
+        <Input type="text" placeholder="Email" />
+        <Input type="text" placeholder="Password" />
+        <Input type="submit" value="Log In"  className="signUpBtn"/>
+        <Link to="/register">
+          <Input type="submit" value="Need an account?" className="haveAnAccountBtn"/>
+        </Link>
+      </FormWrapper>
     );
   }
 }

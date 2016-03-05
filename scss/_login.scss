@@ -2,39 +2,44 @@
 .loginContainer {
   background-color: $white;
   margin: 72px auto;
-  width: 400px;
+  width: 450px;
   height: 600px;
   border-radius: 5px;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-
+  text-align: center;
 
     label {
       font-size: 4rem;
+      margin-bottom: 16px;
       text-align: center;
+      font-family: $cursive;
     }
 
     input {
-      padding: 8px 16px;
-      margin: 8px 0;
+      padding: 16px 16px;
+      margin: 6px;
       background-color: $white;
       border: 1px solid $darkgrey;
       border-radius: 5px;
-      width: 90%;
+      width: 380px;
       &:focus {
-        background-color: $darkgrey;
+        border: 1px solid $darkgrey;
+        outline: none;
       }
     }
 
-    .formBtns div {
-
-      font-size: 2.5rem;
-      > input:hover {
-          background-color: $lightred;
-          color: white;
-      }
+    .haveAnAccountBtn {
+      border-color: $lightred;
+      color: $lightred;
     }
+
+    .signUpBtn {
+      background-color: $lightred;
+      color: $white;
+    }
+
 
 }

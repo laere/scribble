@@ -15,6 +15,7 @@ import About from '../src/Containers/About/AboutContainer';
 import Draft from '../src/Containers/Draft/DraftContainer';
 import Home from '../src/Containers/Home/HomeContainer';
 import Login from '../src/Containers/Login/LoginContainer';
+import Register from '../src/Containers/Register/RegisterContainer';
 import Search from '../src/Containers/Search/SearchContainer';
 import User from '../src/Containers/User/UserContainer';
 // REDUCERS
@@ -44,7 +45,7 @@ ReactDOM.render(
         <Route path="draft" component={Draft} />
         <Route path="user/:id" component={User} />
         <Route path="login" component={Login}/>
-          {/*<Route path="signup" component={Signup}/>*/}
+          <Route path="register" component={Register}/>
       </Route>
     </Router>
   </Provider>

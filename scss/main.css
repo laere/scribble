@@ -452,30 +452,35 @@ p {
 .loginContainer {
   background-color: #fff;
   margin: 72px auto;
-  width: 400px;
+  width: 450px;
   height: 600px;
   border-radius: 5px;
   display: flex;
   flex-flow: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
   .loginContainer label {
     font-size: 4rem;
-    text-align: center; }
+    margin-bottom: 16px;
+    text-align: center;
+    font-family: "Cedarville Cursive", sans-serif; }
   .loginContainer input {
-    padding: 8px 16px;
-    margin: 8px 0;
+    padding: 16px 16px;
+    margin: 6px;
     background-color: #fff;
     border: 1px solid #D5D5D6;
     border-radius: 5px;
-    width: 90%; }
+    width: 380px; }
     .loginContainer input:focus {
-      background-color: #D5D5D6; }
-  .loginContainer .formBtns div {
-    font-size: 2.5rem; }
-    .loginContainer .formBtns div > input:hover {
-      background-color: #FF5252;
-      color: white; }
+      border: 1px solid #D5D5D6;
+      outline: none; }
+  .loginContainer .haveAnAccountBtn {
+    border-color: #FF5252;
+    color: #FF5252; }
+  .loginContainer .signUpBtn {
+    background-color: #FF5252;
+    color: #fff; }
 
 .searchContainer {
   padding-left: 72px;
