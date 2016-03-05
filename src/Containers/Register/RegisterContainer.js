@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router';
 import FormWrapper from '../../Components/FormWrapper';
 import Input from '../../Components/Input';
 
@@ -26,7 +26,9 @@ class RegisterContainer extends Component {
         <Input type="text" placeholder="Password" />
         <Input type="text" placeholder="Confirm Password" />
         <Input type="submit" value="Sign Up"  className="signUpBtn" onClick={this.handleOnSubmit}/>
-        <Input type="submit" value="Have an account?" className="haveAnAccountBtn" onClick={this.handleOnSubmit}/>
+        <Link to="/login">
+          <Input type="submit" value="Have an account?" className="haveAnAccountBtn" onClick={this.handleOnSubmit}/>
+        </Link>
       </FormWrapper>
     );
   }
