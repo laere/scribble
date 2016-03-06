@@ -45,7 +45,7 @@ ReactDOM.render(
         <Route path="draft" component={Draft} />
         <Route path="user/:id" component={User} />
         <Route path="login" component={Login}/>
-          <Route path="register" component={Register}/>
+        <Route path="register" component={Register}/>
       </Route>
     </Router>
   </Provider>

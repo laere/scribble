@@ -1,5 +1,37 @@
 // DRAFT PAGE
 
 .draftContainer {
-  
+  background-color: $white;
+  width: 800px;
+  height: 800px;
+  margin: 54px auto;
+  padding: 64px;
+  display: flex;
+  flex-flow: column nowrap;
+
+  label {
+    font-size: 4rem;
+    margin-bottom: 32px;
+  }
+
+  .draftTitle, label {
+    font-family: $cursive;
+    font-size: 3rem;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 32px;
+  }
+
+
+  .draftPostContent {
+    width: 600px;
+  	height: 600px;
+  	font-family: $droid;
+
+  }
+
+  .draftSubmitBtn {
+    
+  }
+
 }

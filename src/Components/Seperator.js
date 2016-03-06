@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 
-export default class Seperator extends Component {
-  render() {
+const Seperator = () => {
+    
+
     return (
       <span className="seperator">|</span>
     );
-  }
-}
+};
+
+export default Seperator;
