@@ -501,7 +501,8 @@ p {
   padding: 48px;
   display: flex;
   flex-flow: column nowrap;
-  border-bottom: 4px solid #D5D5D6; }
+  border-radius: 5px;
+  border-bottom: 2px solid #D5D5D6; }
   .draftContainer label {
     font-size: 4rem;
     margin-bottom: 32px; }
