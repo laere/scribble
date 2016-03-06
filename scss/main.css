@@ -496,11 +496,12 @@ p {
 .draftContainer {
   background-color: #fff;
   width: 800px;
-  height: 800px;
-  margin: 54px auto;
-  padding: 64px;
+  height: 830px;
+  margin: 32px auto;
+  padding: 48px;
   display: flex;
-  flex-flow: column nowrap; }
+  flex-flow: column nowrap;
+  border-bottom: 4px solid #D5D5D6; }
   .draftContainer label {
     font-size: 4rem;
     margin-bottom: 32px; }
@@ -511,8 +512,22 @@ p {
     height: 50px;
     margin-bottom: 32px; }
   .draftContainer .draftPostContent {
-    width: 600px;
-    height: 600px;
+    min-width: 100%;
+    min-height: 480px;
+    margin-bottom: 20px;
     font-family: "Droid Serif", sans-serif; }
+  .draftContainer .draftSubmitBtn {
+    padding: 16px 16px;
+    background-color: #FF5252;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    width: 380px;
+    text-align: center;
+    font-size: 3rem; }
+    .draftContainer .draftSubmitBtn:hover {
+      border-color: #FF5252;
+      color: #FF5252;
+      background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

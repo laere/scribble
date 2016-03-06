@@ -21,8 +21,8 @@ class DraftContainer extends Component {
     return (
       <FormWrapper className="draftContainer" header="So. What are you thinking?" >
         <Input className="draftTitle" type="text" placeholder="Title"/>
-        <div className="draftPostContent">
-          <textarea></textarea>
+        <div>
+          <textarea className="draftPostContent"></textarea>
         </div>
         <Input className="draftSubmitBtn" type="submit" value="Submit" onClick={this.handleOnSubmit}/>
       </FormWrapper>

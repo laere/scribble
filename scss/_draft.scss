@@ -3,11 +3,12 @@
 .draftContainer {
   background-color: $white;
   width: 800px;
-  height: 800px;
-  margin: 54px auto;
-  padding: 64px;
+  height: 830px;
+  margin: 32px auto;
+  padding: 48px;
   display: flex;
   flex-flow: column nowrap;
+  border-bottom: 4px solid $darkgrey;
 
   label {
     font-size: 4rem;
@@ -24,14 +25,27 @@
 
 
   .draftPostContent {
-    width: 600px;
-  	height: 600px;
+    min-width: 100%;
+  	min-height: 480px;
+    margin-bottom: 20px;
   	font-family: $droid;
 
   }
 
   .draftSubmitBtn {
-    
+    padding: 16px 16px;
+    background-color: $lightred;
+    border: 1px solid $white;
+    color: $white;
+    border-radius: 5px;
+    width: 380px;
+    text-align: center;
+    font-size: 3rem;
+    &:hover {
+      border-color: $lightred;
+      color: $lightred;
+      background-color: $white;
+    }
   }
 
 }
