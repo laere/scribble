@@ -1,0 +1,31 @@
+.homeContainer {
+  width: 100%;
+  height: auto;
+  padding: 48px;
+  //background-color: red;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  .homeBlogPost {
+    background-color: $white;
+    width: 24%;
+    height: 350px;
+    padding: 32px;
+    border: 1px solid $darkgrey;
+    display: inline-block;
+    margin-bottom: 16px;
+  }
+  .homeBlogPostProfilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 16px;
+  }
+
+  .homeBlogPostBannerImg {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+}

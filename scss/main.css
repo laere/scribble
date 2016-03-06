@@ -531,4 +531,29 @@ p {
       color: #FF5252;
       background-color: #fff; }
 
+.homeContainer {
+  width: 100%;
+  height: auto;
+  padding: 48px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .homeContainer .homeBlogPost {
+    background-color: #fff;
+    width: 24%;
+    height: 350px;
+    padding: 32px;
+    border: 1px solid #D5D5D6;
+    display: inline-block;
+    margin-bottom: 16px; }
+  .homeContainer .homeBlogPostProfilePic {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 16px; }
+  .homeContainer .homeBlogPostBannerImg {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 8px; }
+
 /*# sourceMappingURL=main.css.map */
