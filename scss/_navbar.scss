@@ -1,6 +1,6 @@
 
 .main-container {
-  background-color: #E8E8E8;
+  background-color: $almostwhite;
   height: 1000px;
   font-family: 'Varela Round', sans-serif;
   // NAVBAR
@@ -12,8 +12,8 @@
     background-color: $white;
     font-size: 1.65rem;
     padding: 32px;
-    color: #333;
-    border-bottom: 2px solid $darkgrey;
+    color: $smoothblack;
+    border-bottom: 2px solid $lightgrey;
 
     a {
       color: inherit;
@@ -21,12 +21,12 @@
     }
 
     .navbarBtn {
-      border: 1px solid #999;
+      border: 1px solid $lightgrey;
       background-color: $white;
       border-radius: 100%;
       padding: 3px 8px;
       &:hover {
-        background-color: #222;
+        background-color: $smoothblack;
       }
       .navbarIcon:hover {
         color: $white
@@ -34,15 +34,15 @@
     }
 
     .draftBtn {
-      background-color: #111;
+      background-color: $smoothblack;
       color: $white;
       border-radius: 30px;
-      border: 1px solid #999;
+      border: 1px solid $lightgrey;
       padding: 3px 20px;
       font-weight: bold;
       &:hover {
         background-color: $white;
-        color: #111;
+        color: $smoothblack;
       }
     }
 

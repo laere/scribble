@@ -1,12 +1,16 @@
 
-//  IMPORTS
+
+//  IMPORTS BASE STYLES
 @import '_normalize';
 @import '_colors_mixins';
 @import '_basestyles';
 @import '_fonts';
-@import '_navbar';
+
+// SITE PAGES
 @import '_about';
-@import '_login';
-@import '_search';
 @import '_draft';
 @import '_home';
+@import '_login';
+@import '_navbar';
+@import '_profile';
+@import '_search';

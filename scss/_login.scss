@@ -22,11 +22,11 @@
       padding: 16px 16px;
       margin: 6px;
       background-color: $white;
-      border: 1px solid $darkgrey;
+      border: 1px solid $lightgrey;
       border-radius: 5px;
       width: 380px;
       &:focus {
-        border: 1px solid $darkgrey;
+        border: 1px solid $lightgrey;
         outline: none;
       }
     }
