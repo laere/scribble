@@ -10,8 +10,8 @@
   .homeBlogPost {
     background-color: $white;
     width: 24%;
-    height: 470px;
-    padding: 32px;
+    height: 480px;
+    padding: 24px;
     border: 1px solid $darkgrey;
     display: inline-block;
     margin-bottom: 16px;
@@ -22,16 +22,26 @@
     height: 50px;
     border-radius: 100%;
     margin-right: 16px;
+    margin-bottom: 8px;
   }
 
   .homeBlogPostBannerImg {
     height: 200px;
     width: 100%;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
+  }
+
+  .homeBlogPostLikeIcon {
+    font-size: 2rem;
   }
 
   h2 {
     margin-bottom: 16px;
+  }
+
+  p {
+    margin-bottom: 24px;
+    font-size: 1.75rem;
   }
 
   .fa {
@@ -40,7 +50,7 @@
 
   span, .fa-heart-o  {
     color: $lightred;
-    margin-right: 12px;
+    margin-right: 8px;
   }
 
   .fa-bookmark-o {
