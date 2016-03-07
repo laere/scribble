@@ -541,7 +541,7 @@ p {
   .homeContainer .homeBlogPost {
     background-color: #fff;
     width: 24%;
-    height: 350px;
+    height: 470px;
     padding: 32px;
     border: 1px solid #D5D5D6;
     display: inline-block;
@@ -552,8 +552,14 @@ p {
     border-radius: 100%;
     margin-right: 16px; }
   .homeContainer .homeBlogPostBannerImg {
-    height: 100px;
+    height: 200px;
     width: 100%;
-    margin-bottom: 8px; }
+    margin-bottom: 16px; }
+  .homeContainer h2 {
+    margin-bottom: 16px; }
+  .homeContainer span, .homeContainer .fa {
+    color: #FF5252; }
+  .homeContainer .fa {
+    cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */

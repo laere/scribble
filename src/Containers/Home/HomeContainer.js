@@ -18,6 +18,14 @@ class HomeContainer extends Component {
         <HomeBlogPost />
         <HomeBlogPost />
         <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
+        <HomeBlogPost />
         {/*{mapBlogPosts}*/}
       </div>
     );

@@ -5,7 +5,7 @@ const HomeBlogPost = () => {
     <article className="homeBlogPost">
       <div>
         <img className="homeBlogPostProfilePic" src="http://www.hdwallpapers.in/walls/new_york_skyline-wide.jpg" alt="profile-pic" />
-        <span>User profile picture and name</span>
+        <span>Poster's Name</span>
       </div>
       <div>
         <h2>Title of the article</h2>
@@ -16,7 +16,9 @@ const HomeBlogPost = () => {
       <div>
         <p>Beginning of article about a sentence length</p>
       </div>
-      <div>Icons for liking or bookmarking</div>
+      <div>
+        <i className="fa fa-heart-o fa-lg"></i>
+      </div>
     </article>
   );
 };
