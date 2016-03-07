@@ -7,4 +7,4 @@ This blog uses React as a front-end framework with Redux to manage state. It als
 
 <h1>THINGS TO DO:</h1>
 
-
+Set up data models for backend.
