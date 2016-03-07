@@ -557,9 +557,13 @@ p {
     margin-bottom: 16px; }
   .homeContainer h2 {
     margin-bottom: 16px; }
-  .homeContainer span, .homeContainer .fa {
-    color: #FF5252; }
   .homeContainer .fa {
     cursor: pointer; }
+  .homeContainer span, .homeContainer .fa-heart-o {
+    color: #FF5252;
+    margin-right: 12px; }
+  .homeContainer .fa-bookmark-o {
+    color: #4285F4;
+    float: right; }
 
 /*# sourceMappingURL=main.css.map */

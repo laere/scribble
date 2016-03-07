@@ -34,13 +34,18 @@
     margin-bottom: 16px;
   }
 
-  span, .fa  {
-    color: $lightred;
-  }
-
   .fa {
     cursor: pointer;
+  }
 
+  span, .fa-heart-o  {
+    color: $lightred;
+    margin-right: 12px;
+  }
+
+  .fa-bookmark-o {
+    color: $lightblue;
+    float: right;
   }
 
 }

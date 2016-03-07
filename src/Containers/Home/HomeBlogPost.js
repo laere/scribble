@@ -17,7 +17,8 @@ const HomeBlogPost = () => {
         <p>Beginning of article about a sentence length</p>
       </div>
       <div>
-        <i className="fa fa-heart-o fa-lg"></i>
+        <i className="fa fa-heart-o fa-lg">8172</i>
+        <i className="fa fa-bookmark-o fa-lg"></i>
       </div>
     </article>
   );
